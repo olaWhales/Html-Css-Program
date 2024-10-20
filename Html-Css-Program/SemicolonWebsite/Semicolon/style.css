@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
 }
+/* this code design header list to be inline */
 header li{
     text-decoration: none;
     display: inline;
@@ -21,9 +22,38 @@ header a:hover{
     font-size: bold;
     color: red;
 }
+.button{
+    display: flex;
+    float: left ;
+    border: none;
+    height: 35px;
+    font-size: medium;  
+    margin: 10px;
+    /* justify-content: center;                 */
+    /* width: 30x; */
+}
+.containercenter-button{
+    text-align: center;
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    /* font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    /* Blue background */
+    /* border: none;
+    border-radius: 5px;
+    cursor: pointer; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* Subtle shadow */
+    transition: background-color 0.3s ease;
+} */
 header {
     padding-top: 10px;
     min-height: 50px;
+}
+header a{
+    text-decoration: none;
 }
 
 .container{
@@ -55,98 +85,86 @@ header {
 
 .containerthreeimage h3{
     text-align: center;
+    gap: 30px;
+    word-spacing: 20px;
 }
 
 .navs{
+    text-align:center;
+    /* gap: ; */
+}
+.containerright{
+    text-decoration: none;
+    margin: 10px;
+}
+.containercenter{
     text-align: center;
 }
+.button-containercenter{
+    display:flexbox;
+    text-align: center;
+    /* opacity: 50px; */
+}
+.coverall input{
+    border-radius:0% ;
+}
 
-/* .button_1{
-    height: 40px;
-    background: red ;
-    border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
 
-/* .button_2{
-    height: 40px;
-    border: 0;
-    padding-left: 20px ;
-    padding-right: 20px ;
-} */
-
-/* .button{
-    border: 0;
-} */
-
-/* this is the code that code that design header float and alignment */
-/* header li{
-    float: right ;
-    display: inline;
-    padding : 0 30px 0 30px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-} */
 header ol{
     float: left;
     margin-bottom: 20px;
     padding-top: 0px;
 }
-/* header a{
-    font-weight: bold;
-    color: #424040;
-    text-decoration: none;
-} */
 
-/* .container-center{
-    margin: auto;
-    overflow: auto;
-    width:90px;
-} */
-/* .below{
-    float:inline;
-} */
-
-/* .coverall{
+.coverall{
     display:flex;
-    gap: 48px ;
+    gap: 80px;
     text-decoration: none;
     text-align: center;
     overflow: auto;
     margin: auto;
-    width: 800px;
+    width: 1000px;
     border-radius: 0px;
-} */
-/* .container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-} */
-
-/* nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    /* Adjust the gap between images as needed */
-/* }
-nav h2{
-    display: contents;
+    display: flexbox;
 }
-
-img {
-    margin: 10px; */ 
-    /* Optional: Add margin around images */
-/* }
-#newsletter{
+.coverall h3{
     text-align: center;
 }
-/* to split  */
-/* .containers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.coverall input{
     text-align: center;
-}  */
+    gap: 100px;
+}
+.button-container{
+    display:flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+    opacity:50px ;
+    text-decoration: none;
+} 
+
+.containerbox{
+    background-color: red;
+    display: flex;
+    /* padding-top: 50px; */
+    padding: 50px;
+}
+.svg-containerbox{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.containerRed{
+    background-color: red;
+    margin-top: 40px;
+    padding: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+input{
+    opacity: 50px;
+    border: 0px;
+    background-color: white;
+}
+
+

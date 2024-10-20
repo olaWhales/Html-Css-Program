@@ -1,0 +1,136 @@
+body{
+    top: 34px;
+    left: 64px;
+    margin: 10px 15px 10px 15px;
+}
+.header-nav{
+    width: 508px;
+    padding-top: 13px;
+}
+.sub-main {
+    display: flex;
+    width: 1, 258px;
+    height: 44px;
+    top: 33px;
+    left: 91px;
+    gap: 300px;
+}
+.sign-up{
+    width: 140px;
+    height: 44px;
+}
+.wrapper {
+    padding-top: 10px;
+    width: 1, 258px;
+    height: 44px;
+}
+a{
+    text-decoration: none;
+    padding: 8px;
+
+}
+.but{
+    width: 125px;
+    height: 40px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.Helpeveryone{
+    display: flex;
+    padding-top: 60px;
+    padding-top: 100px;
+}
+.helpImage{
+    width: 577px;
+        height: 467px;
+        top: 195px;
+        left: 772px;
+        gap: 0px;
+        opacity: 0px;
+}
+.help{
+    width: 700px;
+    top: 256px;
+    padding-top:100px;
+}
+
+.Watch{
+    width: 374px;
+    display: flex;
+}
+
+.get-started{
+    display: flex;
+    padding-top: 40px;
+
+}
+ .Watch-out-story {
+     position: absolute;
+     width: 374px;
+ }
+ .input{
+    height: 30px;
+ }
+
+/* @media(max-width: 768px) {
+.main {
+    grid-template-columns: 2px;
+} */
+
+.AboutUsHead{
+    justify-content: center;
+}
+.AboutUsMain{
+    display: flex;
+
+}
+.AboutUsHead{
+    margin-left: 300px;
+}
+.our{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.Gurdianship{
+    display: flex;
+    justify-content: space-between;
+}
+.Gurdianship-text{
+    padding-top: 80px;
+}
+.dog{
+    display: flex;
+    justify-content: space-between;
+}
+.dog-text{
+    padding-top: 117px;
+}
+.special-help{
+    background-image: url('./image/Rectangle\ 1.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.help{
+    width: auto;
+}
+.form{
+    text-align: center;
+    padding-top: 30px;
+}
+.Helpeveryone-below{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 45px;
+}
+.end{
+    padding: 20px;
+    width: auto;
+    margin-right: 50px;
+}
+
