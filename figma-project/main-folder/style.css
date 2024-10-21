@@ -39,7 +39,7 @@ a{
 .Helpeveryone{
     display: flex;
     padding-top: 60px;
-    padding-top: 100px;
+    padding-top: 102px;
 }
 .helpImage{
     width: 577px;
@@ -73,13 +73,14 @@ a{
     height: 30px;
  }
 
-/* @media(max-width: 768px) {
+@media(max-width: 768px) {
 .main {
     grid-template-columns: 2px;
-} */
+}}
 
 .AboutUsHead{
     justify-content: center;
+    padding-top: 30px;
 }
 .AboutUsMain{
     display: flex;
@@ -102,6 +103,7 @@ a{
 .dog{
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 .dog-text{
     padding-top: 117px;
