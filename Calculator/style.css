@@ -1,0 +1,40 @@
+.calculator{
+    background-color: rgb(13, 9, 9);
+    justify-content: center;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.input{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-screen{
+    height: 30px;
+    text-align: end;
+    font-size: medium;
+}
+.inner-calculator{
+    justify-content: space-between;
+}
+.operator{
+    background-color: aqua;
+    width: 48px;
+    height: 24px;
+}
+.figure{
+    background-color: rgb(245, 245, 243);
+    width: 48px;
+}
+.downbutton{
+    display: flex;
+    /* gap: 40px; */
+}
+.operator-clear{
+    width: 204px;
+    background-color: green;
+}

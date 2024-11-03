@@ -1,0 +1,129 @@
+.body{
+    width: 100px;
+    padding: 0%;
+    margin: 0%;
+    /* background-color: red; */
+}
+.firstBackground{
+    background-image: url(./image/Hero\ Background.png);
+    width: 1200px;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo-nav{
+    display: flex;
+    /* margin: 10px; */
+}
+.second-logo-inner-nav{
+    padding-top: 8px;
+}
+.nav-link{
+    display: flex;
+    gap: 35px;
+    color: #9EA3AE;
+}
+.design{
+    left: 110px;
+    top: 189px;
+    height: 210px;
+    width: 373px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.secondDiv-text{
+    styleName: Body/Large 145%/Medium;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26.1px;
+        letter-spacing: -0.005em;
+        text-align: left;
+}
+.button-try-free{
+    /* background-color:#2374EE; */
+    display: block;
+    width: 180px;
+    height: 58px;
+    top: 529px;
+    left: 110px;
+    gap: 0px;
+    border-radius: 37px 0px 0px 0px;
+    opacity: 0px;
+}
+.button-try-free button{
+    background-color: #2374EE;
+    text-decoration-color: white;
+    width: 120px;
+    font-style:normal;
+    border-radius: 30px;
+    height: 40px;
+    color: aliceblue;
+}
+.button-view-demo img{
+    height: 40px;
+}
+.second{
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-button-div{
+    display: flex;
+}
+
+.main-empower-student{
+    border: 100px;
+    /* background-color: #ee2331; */
+    display: flex;
+    padding-top: 10px;
+}
+
+.empower-student h1{
+    /* width: 485px;
+    height: 112px;
+    top: 918px;
+    left: 130px;
+    gap: 0px;
+    opacity: 0px;
+    width: 485px;
+    height: 112px;
+    top: 918px;
+    left: 130px;
+    gap: 0px;
+    opacity: 0px; */
+}
+.school{
+    width: 100px;
+    height: 100px;
+}
+.cover{
+    display: flex;
+    height: 100px;
+    padding-top: 50px;
+}
+.but{
+    background-color: #2374EE;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color:aliceblue;
+    font-style: normal;
+}
+.empower-student{
+    padding-top: 10px;
+}
+.main-empower-student{
+    justify-content: center;
+}
+feature{
+    text-align: center;
+    justify-content: center;
+}
+
