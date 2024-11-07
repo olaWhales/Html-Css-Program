@@ -122,8 +122,12 @@
 .main-empower-student{
     justify-content: center;
 }
-feature{
-    text-align: center;
+/* .feature{
+
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+}    */
+.school{
     justify-content: center;
 }
-

@@ -1,40 +1,56 @@
-.calculator{
-    background-color: rgb(13, 9, 9);
-    justify-content: center;
-}
-body {
+body{
+    margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #f4f4f4;
+    align-items: center; 
+    height: 100dvh;
+    background-color: hsla(0, 0%, 14%, 0.283);
+    background-color: rgb(199, 154, 70);
 }
-.input{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    max-width: 1000px;
+    overflow: hidden;
 }
-.calculator-screen{
-    height: 30px;
-    text-align: end;
-    font-size: medium;
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    background-color: rgb(237, 234, 234);
 }
-.inner-calculator{
-    justify-content: space-between;
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+    padding: 25px;
+
 }
-.operator{
-    background-color: aqua;
-    width: 48px;
-    height: 24px;
+button{
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: gray;
+    color: wheat;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
 }
-.figure{
-    background-color: rgb(245, 245, 243);
-    width: 48px;
+button:hover {
+    background-color: rgb(25, 24, 22);
 }
-.downbutton{
-    display: flex;
-    /* gap: 40px; */
+button:active{
+    background-color: rgb(224, 223, 222);
 }
-.operator-clear{
-    width: 204px;
-    background-color: green;
+.operator-btn{
+    background-color: orange;
+}
+.operator-btn:hover{
+    background-color: rgb(154, 125, 45);
+}
+.workInProgress{
+    background-color: grey;
+    width: 295%;
 }
